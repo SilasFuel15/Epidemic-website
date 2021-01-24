@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Spanish Flu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap" rel="stylesheet">
+    <style>
+     body,
+        html {
+            height: 100%;
+            margin: 0;
+
+        }
+
+        .back {
+            /* The image used */
+            background-image: url("https://beta.ctvnews.ca/content/dam/ctvnews/images/2020/5/13/1_4937274.jpg?cache_timestamp=1589375700685");
+            /*Add the blur*/
+            filter: blur(1px);
+            -webkit-filter: blur(3px);
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #P1 {
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        a {
+            padding-right:50px;
+            padding-left:50px;
+            font-size: 22px;
+            text-decoration: none;
+            font-family: 'Noto Sans JP', sans-serif;
+            color: black;
+            
+        }
+
+        #pages {
+            position: absolute;
+            top: 1px;
+            width:100%;
+        }
+
+        #Body {
+            position: relative;
+            top: 20%;
+            text-align: center;
+        }
+
+        #title {
+
+            font-size: 40px;
+            color: red;
+            text-shadow: .1px .1px white;
+            font-family: ' Moda', serif;
+            font-family: 'Assistant', sans-serif;
+            position: relative;
+            top: 140px;
+        }
+
+        #author {
+            color: white;
+            font-size: 30px;
+            font-family: 'Cinzel', serif;
+
+        }
+
+        #ePitch {
+            width: 60%;
+            color: darkred;
+            font-size: 30px;
+            color: crimson;
+            -webkit-text-stroke: .5px white;
+            margin: 0 auto;
+
+        }
+
+     
+        .typewriter h1 {
+            overflow: hidden;
+            /* Ensures the content is not revealed until the animation */
+            /*border-right: .15em solid orange;*/
+            /* The typwriter cursor */
+            white-space: nowrap;
+            /* Keeps the content on a single line */
+            margin: 0 auto;
+            /* Gives that scrolling effect as the typing happens */
+            letter-spacing: .15em;
+            /* Adjust as needed */
+            animation:
+                typing 2.5s steps(50, end);
+               /* blink-caret 1.0s step-end infinite;*/
+            
+            color: red;
+        }
+
+        /* The typing effect */
+        @keyframes typing {
+            from {
+                width: 0
+            }
+
+            to {
+                width: 100%
+            }
+        }
+
+
+
+        #message {
+            display: none;
+            text-align: center;
+            top: 20%;
+            position: relative;
+        }
+
+
+        @media screen and (max-width: 500px) {
+            class {
+                display: none;
+            }
+
+            #message {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="back"></div>
+    <div id="P1">
+
+
+        <div id="pages">
+            <a href="index.html">Home</a>
+            <a href="Spanish-Flu.html">Spanish Flu</a>
+            <a href="Black-Death.html">Black Death</a>
+            <a href="Covid.html">Coronavirus</a>
+            <a href="Compare.html">Comparison</a>
+
+        </div>
+
+
+        <div id="Body">
+            <div class="fade-in">
+                <div id="title">
+                   <div class="typewriter">
+                    <h1>The Spanish Flu</h1>
+                       </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+
+    </script>
+</body></html>
