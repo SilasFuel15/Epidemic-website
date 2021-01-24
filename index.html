@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Glimpse-Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+
+        }
+
+        .back {
+            /* The image used */
+            background-image: url("https://i2.wp.com/bestlifeonline.com/wp-content/uploads/2020/04/face-mask-on-table.jpg?resize=1200%2C800&ssl=1");
+            /*Add the blur*/
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #P1 {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        a {
+            padding: 50px;
+            font-size: 22px;
+            text-decoration: none;
+            font-family: 'Noto Sans JP', sans-serif;
+            color: black;
+        }
+
+        #pages {
+            position: relative;
+            padding-top: 3%;
+            text-align: center;
+        }
+
+        #Body {
+            position: relative;
+            top: 20%;
+            text-align: center;
+        }
+
+        #title {
+
+            font-size: 40px;
+            color: rgb(30, 158, 43);
+            text-shadow: 1px 1px white;
+            font-family: ' Moda', serif;
+            font-family: 'Assistant', sans-serif;
+            position: relative;
+            top: 140px;
+        }
+
+
+
+        .fade-in {
+            animation: fadeIn ease 4s;
+            -webkit-animation: fadeIn ease 4s;
+
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+
+
+        #message {
+            display: none;
+            text-align: center;
+            top: 20%;
+            position: relative;
+        }
+
+
+        @media screen and (max-width: 500px) {
+            class {
+                display: none;
+            }
+
+            #message {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <class>
+        <div class="back"></div>
+        <div id="P1">
+
+
+            <div id="pages">
+                <a href="index.html">Home</a>
+                <a href="Spanish-Flu.html">Spanish Flu</a>
+                <a href="Black-Death.html">Black Death</a>
+                <a href="Covid.html">Coronavirus</a>
+                <a href="Compare.html">Comparison</a>
+
+            </div>
+
+
+            <div id="Body">
+                <div class="fade-in">
+                    <div id="title">
+                        <h1>Pandemics</h1>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div id="P2">
+
+        </div>
+
+    </class>
+    <h1 id="message">Mobile in development </h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+    </script>
+
+    <script>
+
+    </script>
+</body></html>
+
